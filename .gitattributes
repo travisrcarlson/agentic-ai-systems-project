@@ -4,5 +4,6 @@ cases/** -text
 rules/** -text
 prompts/** -text
 runs/** -text
+runs_gpt-6.1-sol/** -text
 *.png binary
 *.pdf binary
