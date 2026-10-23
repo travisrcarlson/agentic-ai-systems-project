@@ -17,6 +17,9 @@ executed_*.ipynb
 # Runs made with the stand-in model during development
 runs_dev/
 
+# Smoke-test runs (the committed runs are in runs/)
+runs_smoke/
+
 # OS files
 .DS_Store
 Thumbs.db
