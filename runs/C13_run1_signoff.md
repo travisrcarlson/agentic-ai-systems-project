@@ -5,18 +5,18 @@ Area ID: PER-CHA-1311
 Model: gpt-6-luna
 
 ## Recommendation
-- Outcome: SPLIT: A=CLEARANCE; B=TECHNICAL_SURVEY
-- By part: A=CLEARANCE; B=TECHNICAL_SURVEY
+- Outcome: TECHNICAL_SURVEY
+- By part: A=TECHNICAL_SURVEY; B=TECHNICAL_SURVEY
 - Rule check: pass
 - Agent's confidence: medium
 
 Agent's summary:
 
-> Recommend clearance of A, where a reliable minefield record defines the recorded hazard and is supported by the national criterion and corroborating same-unit record performance. Recommend targeted technical survey of B before any clearance: a mine was confirmed there, the landslide moved soil from the minefield edge, and the available evidence cannot determine whether the mine was displaced or the record incomplete. The mine's destruction as an EOD spot task does not resolve the extent of hazard. Cancellation of B is not supported.
+> Recommend targeted technical survey across A and B before clearance or cancellation. A is a confirmed minefield supported by a reliable record and observed markers; in B, a mine was found outside that record, and imagery plus first-hand testimony establish a plausible movement pathway without resolving whether the record is incomplete or whether further EO is present. The national criterion requires technical survey to define the hazard extent when finds depart from a minefield record. B has no safe-use history; the community's river use is not evidence of safe use on the slope. The survey team's claim that the mine was moved and its recommendation to cancel B are not established by the evidence.
 
 General guidance on the situation:
 
-> Keep people and animals away from the recorded minefield, landslide scar and slope below. Do not touch, move or try to destroy any suspected item. Mark a location only if this can be done without going closer, and report it to the authorities.
+> Keep people and animals away from the recorded minefield, landslide scar and slope below. Do not touch, move or try to destroy any suspected item. Mark a suspected location only if this can be done without going closer, and report it to the national mine action authority or survey team.
 
 ## Check 1: is each cited item in the file?
 | Item | Quote | Found in the item's row |
@@ -33,34 +33,31 @@ General guidance on the situation:
 ## Check 2: how each item was classed
 | Item | Class | Parts | Reliability class | Explains | Agent's note |
 |---|---|---|---|---|---|
-| E1 | direct | A | 3 | - | The national criterion treats this minefield record as direct evidence because a record of the same kind and unit was confirmed by clearance elsewhere. |
-| E2 | direct | outside | 1 | - | The cleared mines directly confirm hazard at the neighbouring post only; this corroborates the type of record but is not evidence of EO in A or B. |
-| E3 | indirect | A | 2 | - | Survey-team-observed markers support the recorded boundary, but do not themselves establish EO presence with certainty. |
-| E4 | direct | B | 1 | - | A mine was directly confirmed at a known point in B; destruction of that item does not establish that the surrounding slope is free of further EO. |
-| E5 | not_evidence | all | 3 | - | This establishes that no separate minefield is recorded nearby, but absence of another record does not rule out EO displaced into B or an incomplete record. |
-| E6 | indirect | A, B | 4 | - | The first-hand account supports the record's account of laying in A and the possibility, but not certainty, of movement down the slope in B. |
-| E7 | not_evidence | B, outside | 4 | - | The account describes river use outside the slope and avoidance of B and A, so it is not evidence of safe use or absence of EO in either part. |
-| E8 | indirect | A, B | 2 | - | Survey-team desk assessment of imagery supports physical soil movement from A into B, making transfer of EO plausible but not proving it occurred. |
+| E1 | direct | A | 3 | - | National criteria treat this record as direct evidence because a same-kind record from the same unit was confirmed in clearance; the record itself has not been validated within A. |
+| E2 | not_evidence | outside | 3 | - | The completion report validates the record type but concerns another post and does not itself establish EO in this area. |
+| E3 | direct | A | 2 | - | Observed markers and warning signs associated with the known minefield corroborate direct evidence of contamination in A. |
+| E4 | direct | B | 1 | - | A mine was physically found at a known point in B; its removal does not resolve the extent or possible further contamination. |
+| E5 | absence | B | 3 | - | A reliable record search found no other recorded minefield nearby, but this does not rule out EO displaced beyond the recorded field or an incomplete record. |
+| E6 | indirect | A, B | 4 | - | The first-hand engineer confirms laying to the record while also describing slope movement that could have affected the hazard; it does not establish whether EO moved. |
+| E7 | not_evidence | B, outside | 4 | - | The reported river use is outside the hazard area and the community avoids B, so the lack of accidents there does not demonstrate safe exposure or absence of EO. |
+| E8 | indirect | A, B | 2 | - | Team-reviewed imagery confirms soil movement from the field edge into B, creating a plausible pathway for displacement but not proving that a mine moved. |
 
 ## Check 3: the decision against IMAS and the national criteria
 | Rule | Part | Result | Detail |
 |---|---|---|---|
-| R6 | all | pass | Every part is decided once. |
 | R7 | all | pass | Every evidence-log item is in the register. |
-| R2 | A | pass | Direct evidence of class 1-4 in part A: E1. |
-| R5 | A | pass | The national criteria allow clearance where direct evidence defines the hazard. |
+| R4 | A | pass | Evidence to target in part A: E1, E3, E6, E8. |
 | R4 | B | pass | Evidence to target in part B: E4, E6, E8. |
 
 ## Check 4: what the agent did not use
 - Evidence items not in the register: none
 - Sections of the case file not read: none
-- Rule topics looked up: hazard_areas, evidence, reliability, land_use, cancellation, technical_survey, clearance, further_survey, all_reasonable_effort, outcomes, national_criteria
+- Rule topics looked up: hazard_areas, evidence, reliability, land_use, cancellation, technical_survey, clearance, further_survey, all_reasonable_effort, outcomes, quality_control, safety_guidance, case_file_text, national_criteria
 
 ## Flags
 - Instruction-like text that the code found in the case file: none
 - Flags reported by the agent:
-  - The survey team's conclusion that the mine was moved, and its recommendation to cancel B, are not established by the evidence; the case file explicitly says it is unknown whether the landslide carried the mine or the record is incomplete.
-  - National criteria require technical survey to define the hazard extent where finds depart from a minefield record; B should not be cancelled or cleared on the present evidence.
+  - The survey team's recommendation is treated as evidence to assess, not as a decision. Its assertion that the mine was moved by the landslide is uncertain in the case file and is not sufficient to cancel B.
 - Advice on handling items removed: none
 - Vetoes during the run: none
 - Quote check failures: 0; tool errors: 0

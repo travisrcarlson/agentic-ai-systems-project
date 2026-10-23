@@ -12,42 +12,42 @@ Model: gpt-6-luna
 
 Agent's summary:
 
-> Recommend targeted technical survey for A and B: A remains a suspected hazardous area on the unconfirmed military listing, supported by the former soldier’s indirect account; the precautionary fence is not confirmation. B is unused and has no safe-use evidence, and the gully’s monsoon flow carries soil and debris from the slope, so potential hazard there is not resolved. Recommend cancellation of C: two first-hand sources report repeated farming without finds for 30 years, exceeding the five-year national threshold, and the gully drains away from rather than across the fields. The county’s parcel-edge extension does not establish a hazard in C. The coded decision check passed.
+> Recommend targeted technical survey for A and B: the unconfirmed minefield record and former soldier's account support suspicion on the slope, while observed monsoon runoff provides a plausible pathway into the gully. The precautionary fence is not independent confirmation. Recommend cancellation of C: the county's parcel-edge extension is unsupported for that part, two consulted first-hand sources report 30 years of farming without finds, and the observed drainage route runs to the stream rather than across the fields. Cancellation remains subject to defence authority approval. The survey team's whole-area cancellation recommendation is not adopted as a decision.
 
 General guidance on the situation:
 
-> Keep people and animals away from the fenced slope and the gully. If anything suspected to be explosive ordnance is encountered, do not touch, move or try to destroy it; mark the place only if this can be done without going closer, and report it to the authorities.
+> Keep people and animals away from the fenced slope and gully. Do not touch, move or try to destroy any suspected item; mark a place only if this can be done without going closer, and report it to the authorities.
 
 ## Check 1: is each cited item in the file?
 | Item | Quote | Found in the item's row |
 |---|---|---|
-| E1 | The military's list records the slope as an "unconfirmed minefield": the position above it was manned from the 1970s to the 1990s, and no emplacement record is held. No finds, accidents or clearance are recorded. | yes |
-| E2 | The county drew the suspected area to the edges of the land parcel, taking in the gully and the paddy fields, without any evidence of its own for those parts. | yes |
-| E3 | A fence with warning signs runs along the top and sides of the slope. The defence authority's record says it was put up in 1998 as a precaution, when the slope was first listed, and not because of finds or accidents. | yes |
-| E4 | "The perimeter of the position was mined; that was standard then. I did not see it laid. It was done before I arrived, and nobody had a map." | yes |
-| E5 | In heavy monsoon rain the gully floods and carries soil and debris down from the slope to the stream. The farmers keep out of the gully. | yes |
-| E6 | "My family has farmed these paddy fields since 1996, with a permit. We plough every spring. Nothing has ever been found." | yes |
-| E7 | The women said they plant and harvest in the paddy fields every season and have never seen anything suspicious; they do not go into the gully or onto the slope. | yes |
-| E8 | The paddy fields lie on a terrace above the gully bed, and the gully drains into the stream, not across the fields. | yes |
+| E1 | The military's list records the slope as an "unconfirmed minefield" | yes |
+| E2 | without any evidence of its own for those parts. | yes |
+| E3 | it was put up in 1998 as a precaution | yes |
+| E4 | The perimeter of the position was mined; that was standard then. | yes |
+| E5 | In heavy monsoon rain the gully floods and carries soil and debris down from the slope to the stream. | yes |
+| E6 | We plough every spring. Nothing has ever been found. | yes |
+| E7 | they plant and harvest in the paddy fields every season and have never seen anything suspicious | yes |
+| E8 | the gully drains into the stream, not across the fields. | yes |
 
 ## Check 2: how each item was classed
 | Item | Class | Parts | Reliability class | Explains | Agent's note |
 |---|---|---|---|---|---|
-| E1 | indirect | A | 6 | - | The military's unassessed historical listing and history support suspicion on the slope but do not confirm that mines were laid. |
-| E2 | absence | B, C | 6 | E1 | The county record documents that the gully and fields were included administratively, not on hazard evidence; it therefore removes any inference that the listing substantiates those parts. |
-| E3 | indirect | A | 3 | - | The fence reflects the pre-existing suspicion on A, but the documented precautionary purpose means it does not independently confirm contamination. |
-| E4 | indirect | A | 4 | - | The former soldier's service at the position is first-hand context, but he did not witness emplacement, so the account suggests rather than confirms mines on A. |
-| E5 | indirect | B | 2 | - | Observed water and debris movement from the suspected slope may present a pathway of concern in B, but no EO is reported or observed. |
-| E6 | absence | C | 4 | E5 | A first-hand farmer reports three decades of regular ploughing without finds, supporting safe use in C; it also bears against any assumed spread into the fields. |
-| E7 | absence | C | 4 | E5 | Women who regularly use C independently report repeated safe seasonal use, while their non-use of A and B provides no evidence of absence there. |
-| E8 | absence | C | 2 | E5 | The survey team's observation that drainage does not cross C limits the relevance of the gully's downstream debris pathway to the paddy fields. |
+| E1 | indirect | A | 6 | - | The unassessed military list entry gives indirect reason to suspect the slope; it is not a confirmed emplacement record, and the absence of recorded finds is not by itself evidence of absence. |
+| E2 | absence | B, C | 3 | E1 | The county record documents that B and C were included only by parcel-edge mapping, not by evidence of hazard there, correcting the extension of the A record to these parts. |
+| E3 | not_evidence | A | 3 | - | The fence is explicitly documented as precautionary rather than based on finds or accidents, so it does not independently establish EO presence or absence. |
+| E4 | indirect | A | 5 | - | The former soldier's account suggests possible mines but he did not see them laid and gives no emplacement map, so it is not direct confirmation. |
+| E5 | indirect | B | 2 | - | Observed runoff establishes a plausible connection from the suspected slope into the gully, but does not confirm that EO is present or has moved there. |
+| E6 | absence | C | 4 | - | A farmer gives first-hand evidence of repeated cultivation and no finds in C since 1996, supporting safe use there. |
+| E7 | absence | C | 4 | - | The consulted women provide separate first-hand evidence of seasonal work and no suspicious items in C; their lack of access to A or B is not evidence about those parts. |
+| E8 | absence | C | 2 | E5 | The survey team's observation shows the runoff pathway does not cross C, addressing the possible connection raised by E5 and supporting separation of the paddy fields from the gully. |
 
 ## Check 3: the decision against IMAS and the national criteria
 | Rule | Part | Result | Detail |
 |---|---|---|---|
 | R6 | all | pass | Every part is decided once. |
 | R7 | all | pass | Every evidence-log item is in the register. |
-| R4 | A | pass | Evidence to target in part A: E1, E3, E4. |
+| R4 | A | pass | Evidence to target in part A: E1, E4. |
 | R4 | B | pass | Evidence to target in part B: E5. |
 | R1 | C | pass | Every item of direct or indirect evidence is explained by evidence of absence. |
 | R3 | C | pass | The national criteria for cancellation are met. |
@@ -55,14 +55,14 @@ General guidance on the situation:
 ## Check 4: what the agent did not use
 - Evidence items not in the register: none
 - Sections of the case file not read: none
-- Rule topics looked up: hazard_areas, evidence, reliability, land_use, cancellation, technical_survey, clearance, further_survey, all_reasonable_effort, outcomes, quality_control, safety_guidance, national_criteria, case_file_text
+- Rule topics looked up: hazard_areas, evidence, reliability, land_use, cancellation, technical_survey, further_survey, all_reasonable_effort, outcomes, national_criteria
 
 ## Flags
 - Instruction-like text that the code found in the case file: none
 - Flags reported by the agent:
-  - The survey team's recommendation to cancel the whole area is evidence to assess, not a decision; it is not supported for A or B by the available evidence.
-  - A and B are protected habitat. Any intrusive survey requires an environmental permit, and habitat constraints affect methods but do not justify cancellation.
-  - Release of land in the Civilian Control Zone requires defence authority approval.
+  - Land in the Civilian Control Zone requires defence authority approval before release.
+  - A and B are protected habitat: intrusive survey requires an environmental permit, and survey methods should account for habitat constraints; this is not a reason to cancel the areas.
+  - The survey team's recommendation to cancel the whole area was treated as evidence for review, not as a decision.
 - Advice on handling items removed: none
 - Vetoes during the run: none
 - Quote check failures: 0; tool errors: 0

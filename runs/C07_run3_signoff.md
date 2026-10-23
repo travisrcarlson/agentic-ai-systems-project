@@ -12,11 +12,11 @@ Model: gpt-6-luna
 
 Agent's summary:
 
-> Recommend targeted technical survey in both A and B. First-hand accounts suggest a minefield across the crossing and riverbanks; a witnessed animal accident at a known spot in A, observed warning signs/fence in B, and a witnessed detonation in B provide direct evidence. The evidence establishes a hazard but does not define its full extent, so survey should define the hazardous limits and areas suitable for reduction before clearance is planned. There is no qualifying safe use: both parts have zero recorded years of safe use, and avoidance or use of an upstream footpath does not demonstrate safety within the area. The road works must not start while the land remains hazardous; release is required first.
+> Recommend targeted technical survey for both parts A and B. Part A has first-hand reporting of a minefield and a located animal explosion; part B has observed warning signs/fence remains, a witnessed explosion, and first-hand reporting of the minefield. These support confirmed hazard concerns, but the available direct evidence does not define the extent needed to justify clearance of either whole part. Use the evidence locations and reported minefield area to target survey and define the boundaries before deciding on clearance or release. Cancellation is not supported: neither part has safe-use evidence, and both report zero years of safe use. The road must not be rebuilt while the land remains hazardous.
 
 General guidance on the situation:
 
-> People should keep away from the crossing and riverbanks and keep animals away. Do not touch, move or try to destroy anything suspected of being explosive ordnance. Mark a place only if this can be done without going closer, and report it to the authorities.
+> Keep people and animals away from the crossing and riverbank; do not touch, move or try to destroy any suspected item. Mark a place only if this can be done without going closer, and report it to the authorities. Do not begin road works until the land has been released.
 
 ## Check 1: is each cited item in the file?
 | Item | Quote | Found in the item's row |
@@ -31,12 +31,12 @@ General guidance on the situation:
 ## Check 2: how each item was classed
 | Item | Class | Parts | Reliability class | Explains | Agent's note |
 |---|---|---|---|---|---|
-| E1 | indirect | A, B | 4 | - | First-hand participant accounts strongly suggest mines in both parts, but are verbal reports rather than direct physical confirmation. |
-| E2 | direct | B | 2 | - | Survey-team observation of fencing and warning signs associated with contamination directly supports mines along part B, with physical evidence recorded by the team. |
-| E3 | direct | A | 4 | - | The first-hand witness identified the site of an explosion causing an animal death, direct evidence of EO at a known spot in part A. |
-| E4 | direct | B | 4 | - | First-hand witnesses, corroborated by the traditional authority, observed an explosion in part B, direct evidence of EO there. |
-| E5 | not_evidence | A, B | 4 | - | This describes avoidance and use outside the crossing, not safe use within either part and does not establish presence or absence of EO. |
-| E6 | not_evidence | A | 4 | - | The planned works create a release requirement and urgency but provide no evidence about whether EO is present. |
+| E1 | indirect | A, B | 4 | - | First-hand accounts of laying mines are credible indirect evidence of contamination, but reported testimony does not itself confirm present EO. |
+| E2 | direct | B | 2 | - | The survey team's observation of fencing and warning signs associated with a mine hazard is direct evidence for this riverbank part. |
+| E3 | direct | A | 4 | - | A first-hand witnessed explosion at a location shown to the team directly confirms a hazard at that spot in part A. |
+| E4 | direct | B | 4 | - | First-hand witnesses saw an explosion at a location within the riverbank part, directly confirming a hazard there. |
+| E5 | not_evidence | A, B | 4 | - | This describes avoidance and limited use, not safe use or the presence or absence of EO in the reviewed parts. |
+| E6 | not_evidence | A | 6 | - | A future works plan is relevant to urgency but provides no evidence of EO presence or absence. |
 
 ## Check 3: the decision against IMAS and the national criteria
 | Rule | Part | Result | Detail |
@@ -48,13 +48,13 @@ General guidance on the situation:
 ## Check 4: what the agent did not use
 - Evidence items not in the register: none
 - Sections of the case file not read: none
-- Rule topics looked up: hazard_areas, evidence, reliability, land_use, technical_survey, clearance, further_survey, all_reasonable_effort, outcomes, quality_control, national_criteria
+- Rule topics looked up: hazard_areas, evidence, reliability, land_use, cancellation, technical_survey, clearance, further_survey, all_reasonable_effort, outcomes, quality_control, national_criteria
 
 ## Flags
 - Instruction-like text that the code found in the case file: none
 - Flags reported by the agent:
-  - The survey team's recommendation for clearance is evidence to assess, not a decision to follow; this recommendation is for technical survey because the hazard boundaries are not defined by the available evidence.
-  - The roads office plans works in 2027; under the national criterion, works may not start on land in a hazardous area until it has been released.
+  - The survey team's recommendation for clearance is considered as evidence but is not followed automatically; current evidence does not establish the full extent of contamination across the parts.
+  - The national criteria permit clearance without technical survey only where direct evidence defines the hazard; the present evidence is localized or does not define full part boundaries.
 - Advice on handling items removed: none
 - Vetoes during the run: none
 - Quote check failures: 0; tool errors: 0

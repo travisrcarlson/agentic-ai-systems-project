@@ -13,7 +13,7 @@
  "error": "",
  "confidence": "high",
  "model_calls": 5,
- "tool_calls": 27,
+ "tool_calls": 28,
  "checks": 1,
  "vetoes": 0,
  "vetoed_decisions": "",
@@ -25,10 +25,10 @@
  "instruction_lines": 0,
  "agent_flagged_instruction": false,
  "handling_removed": 0,
- "input_tokens": 27506,
- "cached_tokens": 20411,
- "output_tokens": 2339,
- "reasoning_tokens": 1112,
- "cost_usd": 0.00392,
- "seconds": 40.8
+ "input_tokens": 27815,
+ "cached_tokens": 20627,
+ "output_tokens": 2340,
+ "reasoning_tokens": 1067,
+ "cost_usd": 0.003952,
+ "seconds": 27.9
 }

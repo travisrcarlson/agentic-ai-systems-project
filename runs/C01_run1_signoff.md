@@ -12,11 +12,11 @@ Model: gpt-6-luna
 
 Agent's summary:
 
-> Recommend cancellation by non-technical survey for both A and B. The 1998 SHA is supported only by an unvalidated front-line proximity record; the reliable wartime record and completed clearance place the confirmed minefield on the eastern ridge outside this area. First-hand testimony states that mines were not laid in the meadows, and two first-hand sources document sustained safe use: A for 18 years and B for 16 years, exceeding the national five-year threshold. Men and women were consulted separately, and the national criteria allow NTS cancellation and record correction with the completion and handover documents. The team’s recommendation is consistent with this evidence but is not treated as determinative.
+> Recommend cancelling the SHA by non-technical survey for both A and B. The sole original basis was the 1998 proximity-based suspicion, while the reliable wartime record places the minefield on the eastern ridge outside the area and national completion and handover records document its clearance. Both meadows exceed the five-year safe-use threshold; first-hand accounts corroborate safe use and the absence of mine laying there. Men and women were consulted, including a separate women's meeting, and the field visit found no visible indications. The coded rule check passed. This recommendation concerns the recorded suspicion of mines only.
 
 General guidance on the situation:
 
-> If anyone encounters a suspicious item, keep people and animals away; do not touch, move or try to destroy it. Mark the place only if this can be done without going closer, and report it to the national mine action authority, survey team or police.
+> If any suspicious item is noticed later, keep people and animals away; do not touch, move or try to destroy it. Mark the place only if this can be done without going closer, and report it to the national mine action authority, survey team or police.
 
 ## Check 1: is each cited item in the file?
 | Item | Quote | Found in the item's row |
@@ -33,14 +33,14 @@ General guidance on the situation:
 ## Check 2: how each item was classed
 | Item | Class | Parts | Reliability class | Explains | Agent's note |
 |---|---|---|---|---|---|
-| E1 | indirect | A, B | 6 | - | The early survey record is unvalidated and links suspicion only to proximity to the former front line, without an item or event in either meadow. |
-| E2 | direct | outside | 3 | - | The record was validated by finds at the stated location, confirming historical mines on the eastern ridge outside the area. |
-| E3 | absence | outside | 3 | E2 | The verified completion and handover documentation supports that the confirmed ridge minefield was dealt with, and is outside the meadows under review. |
-| E4 | absence | A, B | 4 | - | The landowner gives first-hand reports of sustained use without finds or harm in both meadows. |
-| E5 | absence | A, B | 4 | - | The women provide first-hand, recurring use and observation of both meadows without suspicious finds. |
-| E6 | absence | A, B | 4 | E1 | The former soldier provides first-hand testimony that mines were not laid in either meadow, addressing the front-line-based suspicion. |
-| E7 | absence | A, B | 7 | E1 | The vague second-hand report is located by two first-hand sources on the cleared eastern ridge, not in either meadow; it does not support a hazard in A or B. |
-| E8 | absence | A, B | 2 | - | The team directly observed no indicators on paths and edges, but the limited visual coverage is corroborative rather than proof of subsurface absence. |
+| E1 | indirect | all | 6 | - | An early unassessed record based only on proximity to the former front line is indirect, weakly reliable evidence suggesting possible hazard throughout the recorded area. |
+| E2 | absence | outside | 3 | E1 | The record's accuracy was confirmed against finds, and it places the documented minefield on the eastern ridge outside the meadows, explaining the otherwise broad proximity-based suspicion. |
+| E3 | absence | outside | 3 | E2, E7 | Reliable completion and handover records show that the identified external minefield was cleared; this resolves the external hazard and accident context, not direct evidence of contamination within A or B. |
+| E4 | absence | A, B | 4 | E1 | The landowner gives first-hand, long-term safe-use evidence for both parts, exceeding the national five-year threshold and directly bearing on the initial suspicion. |
+| E5 | absence | A, B | 4 | E1 | Eight consulted community members report repeated first-hand seasonal use without suspicious finds, corroborating safe use in both parts. |
+| E6 | absence | A, B | 4 | E1 | A former participant in operations on the ridge gives first-hand information locating mine laying on the ridge rather than either meadow, directly addressing the record's suspicion. |
+| E7 | indirect | outside | 7 | - | The second-hand, imprecise report is weak indirect evidence of an incident outside this area; the two first-hand sources locate it on the eastern ridge, not the meadows, and E3 documents clearance there. |
+| E8 | absence | all | 2 | E1 | The survey team's direct observation found no visible indications along the paths and edges; this is credible but spatially limited visual absence evidence, not proof about unobserved ground. |
 
 ## Check 3: the decision against IMAS and the national criteria
 | Rule | Part | Result | Detail |
@@ -54,13 +54,12 @@ General guidance on the situation:
 ## Check 4: what the agent did not use
 - Evidence items not in the register: none
 - Sections of the case file not read: none
-- Rule topics looked up: hazard_areas, evidence, reliability, land_use, cancellation, national_criteria, outcomes, case_file_text, all_reasonable_effort, further_survey, safety_guidance, quality_control
+- Rule topics looked up: hazard_areas, evidence, reliability, cancellation, land_use, national_criteria, outcomes, all_reasonable_effort, safety_guidance, further_survey, quality_control
 
 ## Flags
 - Instruction-like text that the code found in the case file: none
 - Flags reported by the agent:
-  - Cancellation concerns only the recorded suspicion of mines; it does not cover other explosive ordnance. Any item found later must be reported and the land reclassified.
-  - The eastern ridge is outside this review area; its recorded clearance does not extend the boundary of this recommendation.
+  - The national criteria state that cancellation of the suspicion of mines does not cover other explosive ordnance; any item found later must be reported and the land reclassified.
 - Advice on handling items removed: none
 - Vetoes during the run: none
 - Quote check failures: 0; tool errors: 0

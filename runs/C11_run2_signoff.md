@@ -12,11 +12,11 @@ Model: gpt-6-luna
 
 Agent's summary:
 
-> Recommend splitting the area. Cancel A by non-technical survey: two separate first-hand herder accounts support 18 years of safe use, the terrace is above the flood line, and the required men’s and women’s consultations were held; the national safe-use criteria are met. Retain B for targeted technical survey: the 2024 EOD-confirmed mine was carried by floodwater to the wadi bank, and the historic imprecise incident and changing flood deposits support checking the wadi and the route the item may have travelled. The track-only surface check does not resolve subsurface or wider wadi risk. Return C for further non-technical survey/access procedure; it was not visited and missing information cannot support release. The survey team's whole-area TS recommendation is considered, but the evidence supports different outcomes for the three parts.
+> Recommend split outcomes. Cancel A: two independent first-hand herder sources support 18 years of safe use, exceeding the national five-year threshold; both men and women were consulted, and the terrace lies above the flood line. The upstream minefield record is outside the area. For B, recommend targeted technical survey: the 2024 EOD find is direct evidence at the find point but was clearly flood-displaced; the national criteria call for survey of its travel path. The old, imprecisely located livestock incident and changing flood deposits add concern, while the 2025 check covered only the track surface. For C, return for further non-technical work through the separate access procedure; it was not visited and cannot be released or assessed on missing information. The survey team's recommendation for technical survey of the whole area was considered, but the evidence and access status support differentiated outcomes.
 
 General guidance on the situation:
 
-> Keep people and animals away from suspected hazardous locations. Do not touch, move or try to destroy any suspected item. Mark a location only if this can be done without going closer, and report it to the national mine action authority or the survey team.
+> Keep people and animals away from any suspected explosive ordnance. Do not touch, move or try to destroy anything; mark a place only if that can be done without going closer, and report it to the national mine action authority, survey team or police.
 
 ## Check 1: is each cited item in the file?
 | Item | Quote | Found in the item's row |
@@ -34,15 +34,15 @@ General guidance on the situation:
 ## Check 2: how each item was classed
 | Item | Class | Parts | Reliability class | Explains | Agent's note |
 |---|---|---|---|---|---|
-| E1 | indirect | outside | 6 | - | An unassessed migrated record suggests a minefield upstream but places it outside this area; it is not evidence of EO within A, B or C. |
-| E2 | direct | B | 1 | - | The EOD-confirmed mine is direct evidence of past EO presence at the stated point in B, despite being displaced there by water. |
-| E3 | absence | A | 4 | - | First-hand account of repeated camping and grazing without accidents supports safe use of the terrace, but does not address B or C. |
-| E4 | absence | A | 4 | - | A separate first-hand user's account supports safe use with no finds in A and complements E3. |
-| E5 | indirect | B | 5 | - | An imprecisely located historical livestock incident repeated second-hand suggests possible hazard near the crossing but cannot locate it precisely. |
-| E6 | absence | B | 2 | - | The team's negative observation supports absence only on the track surface; it does not establish conditions beneath the surface or elsewhere in B. |
-| E7 | indirect | B | 2 | - | Imagery assessment supports the possibility of displaced EO along the changing wadi and flood deposits in B; it also distinguishes A as above the flood line. |
-| E8 | not_evidence | all | 6 | - | Absence of database entries is not probative of absence because conflict-location information was not shared; it neither confirms nor rules out EO. |
-| E9 | not_evidence | C | 2 | - | This establishes that C is unvisited and informants lacked knowledge, not that EO is present or absent there. |
+| E1 | indirect | outside | 6 | - | An unassessed migrated record indicates a minefield outside the reviewed area; its uncertain position does not establish EO within A, B or C. |
+| E2 | direct | B | 1 | - | The EOD report directly confirms a mine was present at the B find point, while the row also states it had been carried there by water. |
+| E3 | absence | A | 4 | - | A firsthand herder reports sustained camping and grazing without harm on A, supporting safe use there. |
+| E4 | absence | A | 4 | - | A second firsthand user independently reports safe use and no finds on A. |
+| E5 | indirect | B | 5 | - | An incident report repeated second-hand with an imprecise location suggests possible hazard near B but does not prove where an accident occurred. |
+| E6 | absence | B | 2 | - | The team's own observation supports absence only on the track surface at the time, not below ground or across the wider wadi deposits. |
+| E7 | indirect | B | 2 | - | Team assessment of imagery shows changing flood deposits in B, relevant to the documented transport route, but does not itself confirm EO. |
+| E8 | absence | all | 6 | - | The database contains no recent incident records, but withheld conflict-location information makes this weak and incomplete absence evidence. |
+| E9 | not_evidence | C | 2 | - | This documents that C was inaccessible and unknown; lack of access or knowledge neither confirms nor excludes EO there. |
 
 ## Check 3: the decision against IMAS and the national criteria
 | Rule | Part | Result | Detail |
@@ -62,8 +62,9 @@ General guidance on the situation:
 ## Flags
 - Instruction-like text that the code found in the case file: none
 - Flags reported by the agent:
-  - Part C was inaccessible under restricted-area instructions; apply the separate national access procedure and do not treat lack of information as evidence to record or release it.
-  - The team's recommendation for technical survey of the whole area was treated as evidence for review, not as a decision.
+  - Part C remains subject to the separate access procedure; this recommendation does not release it or infer hazard status from the lack of access.
+  - The survey team's recommendation for technical survey of the whole area is evidence to consider, not a decision; this recommendation separates A, B and C based on their distinct evidence and access conditions.
+  - National criteria state that anti-vehicle mines, anti-personnel mines and cluster munition remnants have separate criteria; apply the relevant criteria in any follow-on work.
 - Advice on handling items removed: none
 - Vetoes during the run: none
 - Quote check failures: 0; tool errors: 0

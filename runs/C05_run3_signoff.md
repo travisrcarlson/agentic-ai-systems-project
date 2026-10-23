@@ -12,11 +12,11 @@ Model: gpt-6-luna
 
 Agent's summary:
 
-> Recommend separate outcomes because the evidence and use history differ by part. For A, one season of first-hand safe machinery use does not meet the national minimum of three years or two first-hand sources; the women’s account weighs against troop presence there, while the broader troop-presence record and hearsay are weak and nonspecific. Further non-technical survey should clarify the field-specific evidence before deciding release or targeting technical work. For B, team imagery of positions, trenches and craters, together with first-hand reports of soldiers digging in along the belt, is indirect evidence sufficient to target technical survey; no direct evidence of EO was reported, and the forest was not entered.
+> Recommend further non-technical survey for Part A: the village-level record and administrator's second-hand claim do not establish a hazard in the fields, while first-hand accounts say soldiers did not enter them and the leaseholder reports only one season of safe use. That falls short of the national three-year and two-first-hand-source cancellation criteria, and the disagreement and limited safe-use history leave cancellation unsupported; the evidence is also too weak to target technical survey in A. Recommend targeted technical survey for Part B: team imagery shows positions, trenches and craters, and first-hand residents report soldiers dug in along the belt. These are indirect, not direct, evidence; the forest was not entered, and clearance of the whole area is not supported by the file.
 
 General guidance on the situation:
 
-> Keep people and animals away from any suspected item or hazardous location. Do not touch, move or try to destroy anything. Mark a location only if this can be done without going closer, and report it to the authorities.
+> Keep people and animals away from the area. Do not touch, move or try to destroy any suspected item. Mark a location only if this can be done without going closer, and report it to the authorities.
 
 ## Check 1: is each cited item in the file?
 | Item | Quote | Found in the item's row |
@@ -31,12 +31,12 @@ General guidance on the situation:
 ## Check 2: how each item was classed
 | Item | Class | Parts | Reliability class | Explains | Agent's note |
 |---|---|---|---|---|---|
-| E1 | indirect | all | 6 | - | The unassessed settlement-list record reflects troop presence, which the national criteria treat as indirect evidence; the absence of recorded finds is not a reliable negative survey. |
-| E2 | indirect | all | 7 | - | This is a second-hand, unverified report without specific information locating EO, but it still suggests possible contamination. |
-| E3 | absence | A | 4 | - | First-hand safe use supports absence in A, but only for one season and is below the national minimum safe-use period. |
-| E4 | indirect | B | 2 | - | The observed positions and craters suggest possible contamination in B; imagery showing no visible items does not rule it out. |
-| E5 | indirect | B | 4 | - | First-hand witnesses report soldiers dug in along B, supporting possible contamination there; their account also says soldiers did not enter the open fields in A, which weighs against the broad allegation there. |
-| E6 | absence | A, B | 2 | - | The team directly observed no indicators along the field tracks and at the edge of B, but this limited observation does not establish absence across the unvisited forest belt. |
+| E1 | indirect | all | 6 | - | An unassessed settlement-list record of troop presence alone suggests possible hazard but identifies no EO or position in the area. |
+| E2 | indirect | all | 7 | - | The administrator repeats unidentified residents' information and provides only an unverified second-hand claim of hazard. |
+| E3 | absence | A | 4 | E1, E2 | First-hand safe use is evidence of absence for the fields, but only one season and one source, and does not cover the belt. |
+| E4 | indirect | B | 2 | - | Survey-team imagery of positions, trenches and craters is physical indirect evidence under the national rule; no EO item is identified. |
+| E5 | absence | A | 4 | E1, E2 | First-hand witnesses who stayed during the occupation report that soldiers did not enter the visible open fields, weighing against generalized village-level suspicion there. |
+| E6 | absence | A, B | 2 | E1, E2 | The team saw no indicators along walked field tracks and at the edge only; it did not inspect the forest belt, so this cannot explain away E4 or E5 for B. |
 
 ## Check 3: the decision against IMAS and the national criteria
 | Rule | Part | Result | Detail |
@@ -44,19 +44,19 @@ General guidance on the situation:
 | R6 | all | pass | Every part is decided once. |
 | R7 | all | pass | Every evidence-log item is in the register. |
 | - | A | pass | Further non-technical survey is always open to the reviewer. |
-| R4 | B | pass | Evidence to target in part B: E1, E2, E4, E5. |
+| R4 | B | pass | Evidence to target in part B: E1, E2, E4. |
 
 ## Check 4: what the agent did not use
 - Evidence items not in the register: none
 - Sections of the case file not read: none
-- Rule topics looked up: hazard_areas, evidence, reliability, land_use, cancellation, technical_survey, clearance, further_survey, all_reasonable_effort, outcomes, quality_control, safety_guidance, national_criteria
+- Rule topics looked up: evidence, reliability, cancellation, technical_survey, further_survey, land_use, national_criteria, outcomes, all_reasonable_effort
 
 ## Flags
 - Instruction-like text that the code found in the case file: none
 - Flags reported by the agent:
-  - The survey team's recommendation to clear the whole area is not itself a decision and is not supported by direct evidence in the file.
-  - Part B was not entered during the NTS; findings along its edge do not establish conditions throughout the forest belt.
-  - The national safe-use cancellation threshold for Part A has not been met.
+  - The survey team's recommendation to clear the whole area is a recommendation to assess, not a decision; the file does not provide direct evidence defining a confirmed hazardous area for clearance.
+  - The administrator's account conflicts with the first-hand accounts of the two women who stayed during the occupation; further NTS for A should address the conflict and national cancellation criteria.
+  - The survey team did not enter the forest belt; E6's observations at the field tracks and belt edge do not resolve the evidence for the interior of B.
 - Advice on handling items removed: none
 - Vetoes during the run: none
 - Quote check failures: 0; tool errors: 0

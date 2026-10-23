@@ -5,18 +5,18 @@ Area ID: AGO-SHA-4408
 Model: gpt-6-luna
 
 ## Recommendation
-- Outcome: TECHNICAL_SURVEY
-- By part: A=TECHNICAL_SURVEY; B=TECHNICAL_SURVEY
+- Outcome: CLEARANCE
+- By part: A=CLEARANCE; B=CLEARANCE
 - Rule check: pass
 - Agent's confidence: medium
 
 Agent's summary:
 
-> Recommend targeted technical survey of both parts A and B. Direct evidence establishes contamination at a known point on the road approach and at a point on the riverbank; additional first-hand accounts and physical warning indicators support the suspected minefield across both parts. The evidence does not yet define the hazard’s boundaries well enough to justify clearance without technical survey. There has been no safe use to support cancellation, and the national criteria require release before the planned road works.
+> Recommend clearance of both parts A and B. First-hand accounts describe mines laid across the road approach and riverbanks (E1), with a located animal explosion on A (E3) and a witnessed explosion on B (E4). These are direct evidence establishing confirmed hazardous areas in both parts. The national criteria permit clearance where direct evidence defines the hazard; there is no safe-use history supporting cancellation. The road works must not start while the land remains hazardous, and clearance and release must be completed first.
 
 General guidance on the situation:
 
-> Keep people and animals away from the suspected hazardous area. Do not touch, move or try to destroy anything; mark a place only if this can be done without going closer, and report concerns to the national mine action authority, survey team or police.
+> Keep people and animals away from the area. Do not touch, move or try to destroy anything suspected to be explosive ordnance. Mark the place only if this can be done without going closer, and report it to the authorities.
 
 ## Check 1: is each cited item in the file?
 | Item | Quote | Found in the item's row |
@@ -31,30 +31,32 @@ General guidance on the situation:
 ## Check 2: how each item was classed
 | Item | Class | Parts | Reliability class | Explains | Agent's note |
 |---|---|---|---|---|---|
-| E1 | indirect | A, B | 4 | - | First-hand accounts of laying mines are credible indications, but verbal reports alone do not physically confirm current contamination. |
-| E2 | direct | B | 2 | - | Survey-team observation of fence and warning signs associated with contamination is direct evidence, although their history should be corroborated where possible. |
-| E3 | direct | A | 4 | - | A first-hand witness identified the location of an animal explosion, which is direct evidence of contamination at that spot. |
-| E4 | direct | B | 4 | - | First-hand witnesses saw an explosion at a location on the riverbank, directly indicating contamination there. |
-| E5 | not_evidence | A, B | 4 | - | This describes avoidance and lack of use rather than safe use; it does not establish absence of explosive ordnance. |
-| E6 | not_evidence | A | 6 | - | A plan for future works is relevant to urgency and land use, but does not indicate whether contamination is present. |
+| E1 | direct | A, B | 4 | - | The two interviewees state first-hand participation in laying mines across both named parts, confirming EO presence. |
+| E2 | indirect | B | 2 | - | The observed fence and signs suggest a hazard, but the record does not establish why they were placed, so they do not alone confirm mines. |
+| E3 | direct | A | 4 | - | The witness saw the accident and showed its accurately located spot, which is direct evidence under the evidence rules. |
+| E4 | direct | B | 4 | - | Witnessed explosion during a fire on the riverbank is direct evidence under the evidence rules; the traditional authority's corroboration does not weaken this first-hand account. |
+| E5 | not_evidence | A, B | 4 | - | This describes avoidance and use outside the crossing rather than safe use of either reviewed part, so it cannot support absence of EO. |
+| E6 | not_evidence | A | 6 | - | A future works plan is relevant to release timing but says nothing about whether EO is present. |
 
 ## Check 3: the decision against IMAS and the national criteria
 | Rule | Part | Result | Detail |
 |---|---|---|---|
 | R7 | all | pass | Every evidence-log item is in the register. |
-| R4 | A | pass | Evidence to target in part A: E1, E3. |
-| R4 | B | pass | Evidence to target in part B: E1, E2, E4. |
+| R2 | A | pass | Direct evidence of class 1-4 in part A: E1, E3. |
+| R5 | A | pass | The national criteria allow clearance where direct evidence defines the hazard. |
+| R2 | B | pass | Direct evidence of class 1-4 in part B: E1, E4. |
+| R5 | B | pass | The national criteria allow clearance where direct evidence defines the hazard. |
 
 ## Check 4: what the agent did not use
 - Evidence items not in the register: none
 - Sections of the case file not read: none
-- Rule topics looked up: evidence, reliability, land_use, cancellation, technical_survey, clearance, further_survey, all_reasonable_effort, outcomes, quality_control, safety_guidance, national_criteria
+- Rule topics looked up: evidence, reliability, hazard_areas, technical_survey, clearance, outcomes, national_criteria, all_reasonable_effort, further_survey, land_use
 
 ## Flags
 - Instruction-like text that the code found in the case file: none
 - Flags reported by the agent:
-  - The survey team's recommendation for clearance is an assessment to review, not a decision; current direct evidence does not define the full extent of the hazard for clearance without technical survey.
-  - The roads office plans work in 2027; under the national criteria, road works must not start on land that remains hazardous and unreleased.
+  - E2's fence and warning signs are treated as indirect evidence because the file does not establish why they were put in place; the direct evidence from E1, E3 and E4 independently supports the recommendation.
+  - The survey team's recommendation is considered as evidence and context, not as the decision; sign-off is required.
 - Advice on handling items removed: none
 - Vetoes during the run: none
 - Quote check failures: 0; tool errors: 0

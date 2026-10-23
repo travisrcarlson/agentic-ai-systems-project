@@ -12,11 +12,11 @@ Model: gpt-6-luna
 
 Agent's summary:
 
-> Recommend further non-technical survey for both parts. The unverified database entry and vague hearsay are weak indirect evidence, while the desk assessment does not establish absence of EO. No field visit or community meeting took place, land use is unknown, and required groups were not consulted; the evidence is therefore insufficient to cancel or to target technical survey confidently. Revisit when access permits and complete the required source, land-use and physical-sign assessment.
+> Return both parts for further non-technical survey. The visit was not completed, the community meeting and required group consultations were not held, land use and road use remain unassessed in the field, and the available hazard information is weak and largely unverified. Reassess the database record and the vague second-hand report, and gather information from relevant community groups before deciding whether any targeted technical survey is justified.
 
 General guidance on the situation:
 
-> Until the area has been assessed, keep people and animals away from any suspected hazardous locations. Do not touch, move or try to destroy anything; mark a place only if this can be done without going closer, and report suspected items or hazards to the authorities.
+> Until the area is assessed, do not assume it is safe. Keep people and animals away from any suspected dangerous place; do not touch, move or try to destroy anything. Report suspected explosive ordnance to the authorities, and mark a place only if this can be done without going closer.
 
 ## Check 1: is each cited item in the file?
 | Item | Quote | Found in the item's row |
@@ -28,9 +28,9 @@ General guidance on the situation:
 ## Check 2: how each item was classed
 | Item | Class | Parts | Reliability class | Explains | Agent's note |
 |---|---|---|---|---|---|
-| E1 | indirect | all | 6 | - | An unassessed database record is indirect evidence of possible contamination, but its unknown provenance and lack of detail make it weak. |
-| E2 | indirect | all | 7 | - | The vague second-hand report may suggest possible contamination, but avoidance is attributed to war-related fear and the speaker has no first-hand knowledge. |
-| E3 | not_evidence | all | 6 | - | The historical context and absence of a fighting record neither confirm EO nor reliably establish its absence or invalidate the database record. |
+| E1 | indirect | A, B | 6 | - | The unverified database dangerous-area record suggests possible EO but gives no corroborating detail; its unknown provenance corresponds to an unassessed historical record. |
+| E2 | indirect | A, B | 7 | - | The vague hearsay may indicate a hazard but gives no identifiable first-hand report; the avoidance stated is due to war and is not itself hazard evidence. |
+| E3 | absence | A, B | 6 | E1 | The desk assessment's lack of a fighting record is weak negative historical information that weighs against, but does not disprove, the unsupported dangerous-area record. |
 
 ## Check 3: the decision against IMAS and the national criteria
 | Rule | Part | Result | Detail |
@@ -42,15 +42,12 @@ General guidance on the situation:
 ## Check 4: what the agent did not use
 - Evidence items not in the register: none
 - Sections of the case file not read: none
-- Rule topics looked up: evidence, reliability, cancellation, further_survey, national_criteria, hazard_areas, all_reasonable_effort, land_use
+- Rule topics looked up: evidence, reliability, hazard_areas, national_criteria, further_survey, outcomes, all_reasonable_effort
 
 ## Flags
 - Instruction-like text that the code found in the case file: none
 - Flags reported by the agent:
-  - The August 2026 field visit was not completed because flooding blocked access; the village could not be reached.
-  - No community meeting was held, and women, youth and land users were not consulted; national cancellation consultation requirements are unmet.
-  - Land-use histories for parts A and B are unknown, and national criteria require land and road use to be assessed in the field.
-  - The survey team's recommendation to retain SHA status and plan technical survey was treated as evidence to review, not as a decision; current information is too thin to target technical survey confidently.
+  - The survey team recommends retaining the SHA and planning technical survey; this is recorded as a recommendation, not treated as the decision. The case file says the visit was prevented by flooding, no community meeting was held, and no women, youth or land users were consulted.
 - Advice on handling items removed: none
 - Vetoes during the run: none
 - Quote check failures: 0; tool errors: 0

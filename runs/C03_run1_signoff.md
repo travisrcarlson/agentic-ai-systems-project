@@ -5,18 +5,18 @@ Area ID: KHM-SHA-2290
 Model: gpt-6-luna
 
 ## Recommendation
-- Outcome: SPLIT: A=CANCEL; B=TECHNICAL_SURVEY
-- By part: A=CANCEL; B=TECHNICAL_SURVEY
+- Outcome: SPLIT: A=CANCEL; B=FURTHER_NTS
+- By part: A=CANCEL; B=FURTHER_NTS
 - Rule check: pass
 - Agent's confidence: medium
 
 Agent's summary:
 
-> Recommend cancellation of Part A: two separate first-hand farmer accounts support ten years of regular ploughing and cropping without finds, meeting the national five-year threshold and first-hand-source requirement; men and women were consulted. Keep Part B as a separate survey target: it has never been used, reports of danger and a poorly located second-hand animal-incident account remain indirect evidence, and the team did not enter its dense scrub. The evidence supports targeted technical survey of B, not cancellation of the whole area. This split passed the rule check.
+> Recommend split release. Part A meets the national cancellation criteria: ten years of reported annual tractor-ploughed use without finds, supported by two independent first-hand farmers; men and women were consulted, and the field visit was completed. Part B has no safe-use history, was not entered by the survey team, and has a vague second-hand report of a possible mine incident near the trees. That report is too imprecise to support a confident cancellation or to target technical survey; further non-technical survey should seek to verify the report and establish its location and source before deciding the next step.
 
 General guidance on the situation:
 
-> Treat Part B as potentially hazardous until further survey and any required release decision are complete; keep people and animals away. If anyone encounters a suspected item, do not touch, move or try to destroy it; report it to the authorities and mark the place only if that can be done without going closer.
+> Pending sign-off and further survey, keep people and animals away from Part B. If anyone encounters a suspected item, do not touch, move or try to destroy it; mark the place only if this can be done without going closer, and report it to the authorities.
 
 ## Check 1: is each cited item in the file?
 | Item | Quote | Found in the item's row |
@@ -32,13 +32,13 @@ General guidance on the situation:
 ## Check 2: how each item was classed
 | Item | Class | Parts | Reliability class | Explains | Agent's note |
 |---|---|---|---|---|---|
-| E1 | indirect | all | 6 | - | An unvalidated historical SHA record based on proximity and avoidance suggests possible contamination but reports no finds or accidents. |
-| E2 | absence | A | 4 | E1 | The farmer's first-hand account supports ten years of productive use without finds in A and weighs against the old area-wide suspicion there. |
-| E3 | absence | A | 4 | E1 | A separate first-hand woman farmer corroborates regular seasonal use without finds or injury in A. |
-| E4 | indirect | B | 7 | - | An unlocated, third-hand animal-incident report weakly suggests possible hazard near B but cannot confirm a specific event or location. |
-| E5 | indirect | B | 4 | - | Non-use is a relevant indirect warning, although the stated danger is hearsay and no specific find or accident was identified. |
-| E6 | absence | A, B | 2 | - | The team directly observed no signs at the field edges or B boundary, but did not inspect B's interior, so this absence is limited in scope. |
-| E7 | absence | A | 4 | E1 | The chief's institutional knowledge supports no recorded accidents in the cultivated fields since 2015, but does not address the unused strip. |
+| E1 | indirect | A, B | 6 | - | The old baseline suspicion and nearby former positions support possible contamination, but the record is not verified by direct evidence; absence of recorded incidents does not itself cancel that indication. |
+| E2 | absence | A | 4 | E1 | A first-hand farmer reports ten years of annual tractor-ploughed use with no finds, strongly weighing against the old broad suspicion in Part A. |
+| E3 | absence | A | 4 | E1 | A separate first-hand woman farmer confirms repeated safe seasonal use in Part A, providing an independent source required by national criteria. |
+| E4 | indirect | B | 7 | - | A vague, second-hand report of a possible mine accident near the trees suggests potential hazard in Part B but cannot establish the event or its exact location. |
+| E5 | not_evidence | B | 7 | - | Avoidance is attributed only to unspecified fear, with no identifiable report of EO, find or accident; fear alone is not evidence. |
+| E6 | absence | A, B | 2 | - | The team directly observed no indicators at field edges or the strip boundary, but the unentered dense scrub means this inspection provides little evidence of absence within Part B. |
+| E7 | absence | A, B | 4 | E1 | The chief reports no recorded accidents since 2015, which modestly weighs against a continuing hazard but does not establish safe use of the never-used strip. |
 
 ## Check 3: the decision against IMAS and the national criteria
 | Rule | Part | Result | Detail |
@@ -47,17 +47,17 @@ General guidance on the situation:
 | R7 | all | pass | Every evidence-log item is in the register. |
 | R1 | A | pass | Every item of direct or indirect evidence is explained by evidence of absence. |
 | R3 | A | pass | The national criteria for cancellation are met. |
-| R4 | B | pass | Evidence to target in part B: E1, E4, E5. |
+| - | B | pass | Further non-technical survey is always open to the reviewer. |
 
 ## Check 4: what the agent did not use
 - Evidence items not in the register: none
 - Sections of the case file not read: none
-- Rule topics looked up: evidence, reliability, land_use, cancellation, further_survey, outcomes, national_criteria, all_reasonable_effort
+- Rule topics looked up: evidence, reliability, cancellation, land_use, national_criteria, hazard_areas, outcomes, further_survey, all_reasonable_effort, technical_survey, safety_guidance
 
 ## Flags
 - Instruction-like text that the code found in the case file: none
 - Flags reported by the agent:
-  - The survey team's recommendation to cancel the whole area is considered as evidence, not followed as a decision; its inspection of B was limited to the boundary and did not enter the scrub.
+  - The survey team's recommendation to cancel the whole area was treated as evidence to review, not as a decision; the unentered, never-used Part B remains unresolved.
 - Advice on handling items removed: none
 - Vetoes during the run: none
 - Quote check failures: 0; tool errors: 0

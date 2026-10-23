@@ -12,11 +12,11 @@ Model: gpt-6-luna
 
 Agent's summary:
 
-> Recommend technical survey in both parts. E1 directly confirms removed improvised devices at a known point in A, and E2 is a reliably located accident in B; national criteria therefore classify the area as a CHA. E3 and E5 also indicate possible contamination along the berm, but the evidence does not define the full hazard extent. There has been no land use that can support cancellation. Technical survey should define the contaminated extent and areas suitable for release before clearance is determined.
+> Recommend targeted technical survey in both parts. E1 confirms device removal at a known point in A and E2 confirms a located accident in B; under the national criteria, each part is therefore a confirmed hazardous area. The evidence establishes points of contamination, but not the extent of the hazard across either berm and its frontage. Technical survey is warranted to delineate the contaminated areas and areas without evidence before clearance is planned. Cancellation is not supported: neither part has safe use, and indirect evidence also supports concern across the berm.
 
 General guidance on the situation:
 
-> Keep people and animals away from the berm and the land in front of it. Do not touch, move or try to destroy anything suspected of being explosive ordnance. Mark a suspected place only if this can be done without going closer, and report it to the authorities.
+> Keep people and animals away from the berm and its frontage. Do not touch, move, or try to destroy any suspected item. Mark a place only if this can be done without going closer, and report any suspected item or incident to the authorities.
 
 ## Check 1: is each cited item in the file?
 | Item | Quote | Found in the item's row |
@@ -31,29 +31,31 @@ General guidance on the situation:
 ## Check 2: how each item was classed
 | Item | Class | Parts | Reliability class | Explains | Agent's note |
 |---|---|---|---|---|---|
-| E1 | direct | A | 3 | - | The station-checked record documents devices removed at a known point in part A, directly confirming improvised mines were present there. |
-| E2 | direct | B | 4 | - | The accident location is accurately established by records and shown on site, and national criteria treat a located accident as confirmation. |
-| E3 | indirect | A, B | 2 | - | The imagery shows a physical pattern that may be associated with contamination but does not itself confirm EO. |
-| E4 | not_evidence | A, B | 4 | - | Non-use provides no evidence of safe use or of absence of EO, so it cannot support cancellation. |
-| E5 | indirect | A, B | 4 | - | The defensive context suggests possible contamination but does not establish EO in either part. |
-| E6 | not_evidence | B | 2 | - | This is a locally made warning with no stated basis tying it to a known minefield, so it reflects concern rather than confirming EO. |
+| E1 | direct | A | 4 | - | The checked record documents a removal of devices at a known location in part A, confirming EO presence there; the source is a police account of the event. |
+| E2 | direct | B | 4 | - | The accident location was independently recorded and shown to the team, so this is direct evidence of EO at the known spot in part B. |
+| E3 | indirect | A, B | 2 | - | The observed disturbed ground and defensive feature may indicate activity or hazard but do not themselves confirm EO. |
+| E4 | indirect | A, B | 4 | - | The reported non-use is consistent with possible hazard but cannot support safe-use absence because the land has not been used. |
+| E5 | indirect | A, B | 4 | - | A first-hand account of a defensive position suggests possible contamination but does not confirm EO. |
+| E6 | indirect | B | 2 | - | The warning sign is an observed indicator of local concern, but its basis is not documented, so it cannot confirm EO on its own. |
 
 ## Check 3: the decision against IMAS and the national criteria
 | Rule | Part | Result | Detail |
 |---|---|---|---|
 | R7 | all | pass | Every evidence-log item is in the register. |
-| R4 | A | pass | Evidence to target in part A: E1, E3, E5. |
-| R4 | B | pass | Evidence to target in part B: E2, E3, E5. |
+| R4 | A | pass | Evidence to target in part A: E1, E3, E4, E5. |
+| R4 | B | pass | Evidence to target in part B: E2, E3, E4, E5, E6. |
 
 ## Check 4: what the agent did not use
 - Evidence items not in the register: none
 - Sections of the case file not read: none
-- Rule topics looked up: evidence, reliability, hazard_areas, cancellation, technical_survey, clearance, further_survey, land_use, national_criteria, case_file_text
+- Rule topics looked up: evidence, reliability, hazard_areas, technical_survey, clearance, cancellation, national_criteria, outcomes, further_survey
 
 ## Flags
 - Instruction-like text that the code found in the case file: none
 - Flags reported by the agent:
-  - The survey team recommends clearance along the berm with technical survey to set the extent in front of it. This review recommends technical survey in both parts first because the direct evidence gives located points but does not define the full hazard extent; the authorized decision-maker should consider this sequencing difference.
+  - The survey team's suggestion to clear along the berm is a recommendation, not a decision; the located evidence does not by itself define the full hazard extent.
+  - The national criteria require recording an area with improvised mines as a CHA once a device or a located accident is confirmed; that threshold is met in both parts.
+  - The warning sign in B has no documented basis and is treated as indirect evidence, not independent confirmation.
 - Advice on handling items removed: none
 - Vetoes during the run: none
 - Quote check failures: 0; tool errors: 0

@@ -8,15 +8,15 @@ Model: gpt-6-luna
 - Outcome: FURTHER_NTS
 - By part: A=FURTHER_NTS; B=FURTHER_NTS
 - Rule check: pass
-- Agent's confidence: medium
+- Agent's confidence: high
 
 Agent's summary:
 
-> Recommend returning both parts (A and B) for further non-technical survey. The only hazard indication is an unverified database record; the phone report is fear and unidentified hearsay, and the desk review does not establish absence of EO. The field visit was not completed, land use is unknown, and required community groups were not consulted, so there is insufficient evidence either to cancel the SHA or to target technical survey. Revisit when access permits, assess land and road use in the field, and consult men, women and youth before a release decision.
+> Recommend further non-technical survey for both parts. The unknown-source database entry and vague second-hand report are insufficient to define or resolve a hazard; the desk finding of no recorded fighting does not establish that the record is wrong. The field visit and community meeting were not completed, land and road use were not assessed in the field, and required groups (men, women and youth) were not consulted. A return visit when access permits should gather first-hand, inclusive information and assess land/road use and physical signs before deciding whether any technical survey is justified.
 
 General guidance on the situation:
 
-> Until the area is adequately assessed, people should avoid entering it where practicable. If anyone encounters a suspected explosive ordnance item, keep people and animals away, do not touch, move or try to destroy it, mark the place only if this can be done without going closer, and report it to the authorities.
+> Until the area is assessed, keep people and animals away from any suspected hazardous place. Do not touch, move or try to destroy any suspected item. Mark a place only if this can be done without going closer, and report it to the authorities.
 
 ## Check 1: is each cited item in the file?
 | Item | Quote | Found in the item's row |
@@ -28,9 +28,9 @@ General guidance on the situation:
 ## Check 2: how each item was classed
 | Item | Class | Parts | Reliability class | Explains | Agent's note |
 |---|---|---|---|---|---|
-| E1 | indirect | A, B | 6 | - | The unverified database hazard record suggests possible EO but does not establish its presence or a specific location. |
-| E2 | not_evidence | A, B | 7 | - | Avoidance is attributed to fear of war and the unsourced talk about finds or accidents is not evidence of EO. |
-| E3 | not_evidence | A, B | 6 | - | The absence of a record of fighting does not establish that EO is absent at a former garrison, and the desk assessment does not identify a hazard. |
+| E1 | indirect | A, B | 6 | - | An unverified, undated record of a dangerous area suggests possible EO but establishes neither its presence nor extent. |
+| E2 | indirect | A, B | 7 | - | The vague, second-hand report may indicate a concern about EO, but avoidance due to war and unidentified talk do not verify finds or accidents. |
+| E3 | absence | A, B | 6 | - | The desk assessment offers limited negative historical information, but the lack of a fighting record does not verify the database record as wrong or explain it away. |
 
 ## Check 3: the decision against IMAS and the national criteria
 | Rule | Part | Result | Detail |
@@ -42,14 +42,15 @@ General guidance on the situation:
 ## Check 4: what the agent did not use
 - Evidence items not in the register: none
 - Sections of the case file not read: none
-- Rule topics looked up: evidence, reliability, hazard_areas, cancellation, further_survey, land_use, all_reasonable_effort, outcomes, national_criteria
+- Rule topics looked up: evidence, reliability, national_criteria, further_survey, hazard_areas, cancellation
 
 ## Flags
 - Instruction-like text that the code found in the case file: none
 - Flags reported by the agent:
-  - The accredited team's recommendation to retain the SHA and plan technical survey is evidence to review, not a decision; the present record does not provide enough information to target technical survey.
-  - The field visit was prevented by flooding; no community meeting was held, women, youth and land users were not consulted, and land use is unknown in both parts.
-  - The national criteria require field assessment of land and road use and consultation with men, women and youth before cancellation.
+  - Survey team recommendation to retain the SHA and plan technical survey was considered as evidence, not followed as a decision.
+  - No community meeting was held; women, youth and land users were not consulted.
+  - The area was inaccessible because of flooding; no maps or photographs were available.
+  - E3 is limited negative historical information and does not verify or invalidate the database entry.
 - Advice on handling items removed: none
 - Vetoes during the run: none
 - Quote check failures: 0; tool errors: 0

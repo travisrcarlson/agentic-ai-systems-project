@@ -12,11 +12,11 @@ Model: gpt-6-luna
 
 Agent's summary:
 
-> Recommend targeted technical survey for part A. The broad 2016 CHA record is indirect and the neighboring-sector clearance pattern, 14 years of reported cultivation and footpath use, and the team's absence of signs in the margin all weigh against contamination there. However, the national criteria do not permit cancellation of land inside a CHA by non-technical survey, and the evidence does not establish the recorded area is wrong or duplicate. Technical survey is therefore needed to verify and define the margin before release; it passed the rule check as targetable from E1 and E3.
+> Recommend targeted technical survey of part A before release. The 2016 sector record provides indirect, not margin-specific direct, evidence; the neighbouring clearance pattern, 14 years of farming, women's reported use, and the team's observations all support lower likelihood at the far margin but do not establish absence with the confidence needed for cancellation. The national criteria do not provide for non-technical cancellation of land inside a CHA, so safe use and the survey team's cancellation recommendation cannot justify cancellation here. The team should use the nearby clearance evidence to assess and target the technical work; no direct evidence in A currently supports clearance without survey.
 
 General guidance on the situation:
 
-> Until the area is formally released, keep people and animals away from it. Do not touch, move or try to destroy any suspected item; report it to the authorities, and mark the place only if this can be done without approaching it.
+> Until the area is formally released, keep people and animals away from it. Do not touch, move or try to destroy any suspicious item. Mark a suspected place only if that can be done without going closer, and report it to the authorities.
 
 ## Check 1: is each cited item in the file?
 | Item | Quote | Found in the item's row |
@@ -24,35 +24,37 @@ General guidance on the situation:
 | E1 | The 2016 re-survey drew the CHA as a wide band along the border minefield and divided it into sectors; the boundary of sector 4 includes the margin under review. | yes |
 | E2 | In the cleared sectors 2 and 3, all mines were found in a narrow belt along the line of the old fence; none were found in the outer parts of those sectors. | yes |
 | E3 | Compared with the clearance records, the margin lies beyond the belt in which mines were found in the neighbouring sectors. | yes |
-| E4 | "I have grown maize on this land every year since 2012, with oxen and a plough. Nothing has happened." | yes |
+| E4 | “I have grown maize on this land every year since 2012, with oxen and a plough. Nothing has happened.” | yes |
 | E5 | The women said they collect firewood along the margin and walk through it to the river; they know of no accident or find in it. | yes |
 | E6 | The team saw old fence posts along the minefield line inside sector 4, well away from the margin, and no items, signs or posts in the margin itself. | yes |
 
 ## Check 2: how each item was classed
 | Item | Class | Parts | Reliability class | Explains | Agent's note |
 |---|---|---|---|---|---|
-| E1 | indirect | A | 6 | - | This is an unvalidated historical area record that places the margin within a broadly drawn CHA but does not itself confirm EO in the margin. |
-| E2 | indirect | outside | 3 | - | Reliable clearance records in neighboring sectors suggest a narrow-belt pattern but are not evidence of EO presence or absence in this area. |
-| E3 | indirect | A | 3 | - | A desk inference from validated neighboring clearance records indicates lower likelihood in A but does not rule out contamination there. |
-| E4 | absence | A | 4 | E1 | The farmer gives first-hand evidence of sustained yearly cultivation without a known find or accident, countering the broad CHA inclusion. |
-| E5 | absence | A | 4 | E1 | Women report repeated personal use and no known incident or find in A, countering the broad recorded boundary. |
-| E6 | absence | A | 2 | E1 | The team's direct observation found no signs in A and located the old fence-line indicators away from it; this supports absence in A but does not by itself establish the true hazard boundary. |
+| E1 | indirect | A | 6 | - | The dated sector record places the margin within an earlier broad CHA, but does not confirm mines within this margin; its reliability has not been independently assessed. |
+| E2 | absence | outside | 3 | - | Verified clearance completion reports support absence only in neighboring sectors 2 and 3, not in part A. |
+| E3 | absence | A | 3 | E1 | The desk comparison of records proven reliable elsewhere supports no mines in the margin, and challenges the broad 2016 boundary, but does not itself prove the record wrong or locate hazard elsewhere with certainty. |
+| E4 | absence | A | 4 | - | The farmer provides first-hand evidence of repeated farming without a known incident on the margin over 14 years. |
+| E5 | absence | A | 4 | - | Women consulted directly report regular use and no known find or accident in the margin; this corroborates safe use but cannot establish absence alone. |
+| E6 | absence | A, outside | 2 | - | The team directly observed no items, signs or posts in A; the old fence posts are along the minefield line, outside A, and are not evidence of EO in the margin. |
 
 ## Check 3: the decision against IMAS and the national criteria
 | Rule | Part | Result | Detail |
 |---|---|---|---|
 | R7 | all | pass | Every evidence-log item is in the register. |
-| R4 | A | pass | Evidence to target in part A: E1, E3. |
+| R4 | A | pass | Evidence to target in part A: E1. |
 
 ## Check 4: what the agent did not use
 - Evidence items not in the register: none
 - Sections of the case file not read: none
-- Rule topics looked up: evidence, reliability, cancellation, land_use, technical_survey, further_survey, all_reasonable_effort, outcomes, national_criteria
+- Rule topics looked up: hazard_areas, evidence, reliability, land_use, cancellation, technical_survey, further_survey, national_criteria, outcomes, all_reasonable_effort
 
 ## Flags
 - Instruction-like text that the code found in the case file: none
 - Flags reported by the agent:
-  - The survey team recommended cancellation, but that recommendation is evidence to assess, not a decision; national criteria do not provide for cancellation by non-technical survey within a CHA.
+  - The national criteria require technical survey or clearance to release land inside a CHA and provide no non-technical cancellation route.
+  - The survey team's recommendation to cancel is part of the evidence review, not a decision; it conflicts with the national release criteria.
+  - The area is described as a far margin away from the old fence line; ensure any technical survey planning distinguishes the margin from the known hazard belt and accounts for sector 4's unresolved status.
 - Advice on handling items removed: none
 - Vetoes during the run: none
 - Quote check failures: 0; tool errors: 0

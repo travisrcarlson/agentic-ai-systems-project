@@ -8,15 +8,15 @@ Model: gpt-6-luna
 - Outcome: SPLIT: A=CANCEL; B=CLEARANCE; C=FURTHER_NTS
 - By part: A=CANCEL; B=CLEARANCE; C=FURTHER_NTS
 - Rule check: pass
-- Agent's confidence: high
+- Agent's confidence: medium
 
 Agent's summary:
 
-> Recommend splitting the area. Cancel A by non-technical survey: 22 years of annual tractor cultivation with no finds, corroborated by women's first-hand seasonal use and the team's observations; the 2019 technical survey places A outside the defined minefield, and required male and female groups were consulted. Recommend clearance for confirmed minefield B: technical survey and a precisely located casualty provide direct evidence, with the minefield edge defined and marked. Return C for further non-technical survey when security access allows; the team did not enter it, and the conflicting 2025 claims do not establish contamination or its extent. The survey team's recommendation to clear the whole area is considered but not followed as a blanket recommendation.
+> Recommend split outcomes. Cancel A: the 2019 technical survey places the farmland outside the defined minefield, and 22 years of safe use, two separate first-hand community sources, the required men’s and women’s consultations, and the team’s field observations meet the national cancellation criteria and explain the old unbounded SHA record for A. Recommend clearance of B: mines are confirmed there by the 2019 technical survey and a precisely located 2012 mine accident, and the hazard is defined. Return C for further non-technical survey when security access permits; the team could not enter it, and the 2025 claims are conflicting and do not establish exact locations or responsibility.
 
 General guidance on the situation:
 
-> Keep people and animals away from the marked minefield and the inaccessible ridge-road strip. Do not touch, move or try to destroy anything; mark any suspected place only if this can be done without going closer, and report it to the authorities. Follow local authority restrictions and do not enter C until access is formally permitted and it has been surveyed.
+> For any suspected explosive ordnance, keep people and animals away. Do not touch, move or try to destroy anything. Mark the place only if this can be done without going closer, and report it to the national mine action authority, survey team or police. Respect the military closure and do not enter C until access is authorized.
 
 ## Check 1: is each cited item in the file?
 | Item | Quote | Found in the item's row |
@@ -33,14 +33,14 @@ General guidance on the situation:
 ## Check 2: how each item was classed
 | Item | Class | Parts | Reliability class | Explains | Agent's note |
 |---|---|---|---|---|---|
-| E1 | indirect | all | 4 | - | A dated, second-hand suspicion with no defined boundary suggests possible hazard but is superseded in relevant parts by better location evidence. |
-| E2 | direct | B | 2 | - | A technical survey directly confirmed mines in B and documented the minefield edge; farmland outside the edge is separately supported as absence evidence by safe use and observations. |
-| E3 | direct | B | 2 | - | A recorded casualty and accompanying eyewitness identify a specific mine incident in the confirmed minefield. |
-| E4 | absence | A | 2 | E1 | The farmer's first-hand account of repeated tractor cultivation with no finds supports absence in A and rebuts the unbounded old suspicion there. |
-| E5 | absence | A | 2 | E1 | Separate first-hand accounts of repeated use and no suspicious finds support absence in A and rebut the unbounded old suspicion there. |
-| E6 | indirect | C | 5 | - | Conflicting unverified government accounts suggest possible hazard near C but do not establish precise locations or provenance. |
-| E7 | not_evidence | C | 3 | - | Closure and lack of access mean C is unsurveyed; non-use since closure is not evidence that it is safe or hazardous. |
-| E8 | absence | A | 2 | E1 | Survey observations support absence in the farmland and confirm the established boundary, but do not negate the confirmed hazard in B. |
+| E1 | indirect | all | 6 | - | An old, unassessed record based on second-hand reports supports suspicion but gives no reliable boundary. |
+| E2 | direct | B | 3 | - | A technical survey report whose findings include confirmed mines provides reliable direct evidence in the defined minefield; the stated boundary places A outside it. |
+| E3 | direct | B | 4 | - | A precisely located mine accident witnessed by the accompanying son directly confirms EO at the spot in B. |
+| E4 | absence | A | 4 | E1 | A first-hand farmer reports 22 years of repeated tractor cultivation without finds or accidents in the farmland, meeting the national safe-use duration. |
+| E5 | absence | A | 4 | E1 | Women report first-hand, repeated work and use across the fields and edges without suspicious finds, providing a separate consulted source of safe-use evidence. |
+| E6 | indirect | C | 6 | - | Conflicting unverified government claims about mines near the border suggest possible hazard in the nearby strip, but exact places are not given and responsibility claims do not determine the outcome. |
+| E7 | not_evidence | C | 2 | - | This establishes a security-related access gap and cessation of use, not whether EO is present or absent. |
+| E8 | absence | A | 2 | E1 | The team's field observation found no items in A and confirms the mapped boundary markers remain in place, supporting the farmland distinction and explaining the old whole-area suspicion for A. |
 
 ## Check 3: the decision against IMAS and the national criteria
 | Rule | Part | Result | Detail |
@@ -56,14 +56,13 @@ General guidance on the situation:
 ## Check 4: what the agent did not use
 - Evidence items not in the register: none
 - Sections of the case file not read: none
-- Rule topics looked up: hazard_areas, evidence, reliability, land_use, cancellation, technical_survey, clearance, further_survey, all_reasonable_effort, outcomes, quality_control, safety_guidance, case_file_text, national_criteria
+- Rule topics looked up: evidence, reliability, cancellation, hazard_areas, outcomes, national_criteria, safety_guidance, case_file_text
 
 ## Flags
 - Instruction-like text that the code found in the case file: none
 - Flags reported by the agent:
-  - Part C was not visited because of military security restrictions; under the national criteria it is not surveyed and must be revisited when access allows.
-  - The survey team's recommendation to clear the whole area, including C, is evidence to assess and not a decision; it is not supported as a single outcome for all parts.
-  - Claims about who laid mines in 2025 remain disputed and unverified; retain attribution to each government and do not treat attribution as deciding the outcome.
+  - The survey team recommended clearance of the whole area, including C, but this is evidence to assess rather than a decision; C was not surveyed and national criteria require it to be returned for survey when access allows.
+  - The parties’ conflicting claims about who laid mines are recorded as claims and do not determine the outcome.
 - Advice on handling items removed: none
 - Vetoes during the run: none
 - Quote check failures: 0; tool errors: 0

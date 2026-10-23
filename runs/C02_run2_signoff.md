@@ -12,11 +12,11 @@ Model: gpt-6-luna
 
 Agent's summary:
 
-> Recommend cancellation by non-technical survey for both A (house gardens) and B (paddy fields). The 2010 unassessed, approximate record is explained by the documented desk-review match to the separate minefield beside the area, and the verified 2014 completion and handover records confirm that outside minefield was cleared. Both parts have substantially more than the national minimum of four years of safe use, supported by first-hand accounts from returnees and women who use the land; men and women were consulted separately, and the survey observation and village records corroborate the absence of finds or accidents. The rule check passed for both parts. This is a recommendation for sign-off, not a final decision.
+> Recommend cancellation of both A (house gardens) and B (paddy) by non-technical survey. The 2010 unassessed record is shown by the desk review to duplicate the separate minefield beside the area, and official completion and handover records document that minefield's clearance. Both parts also have eight or more years of reported productive use without finds or accidents, supported by two separate first-hand community sources, consultation with men and women, and the team's field observations. The evidence and national cancellation criteria support cancellation; this remains for sign-off.
 
 General guidance on the situation:
 
-> No evidence of EO in the reviewed parts is reported in this case. If anyone encounters a suspected item, keep people and animals away; do not touch, move or try to destroy it; mark the place only if this can be done without going closer; and report it to the authorities.
+> This recommendation is subject to authority sign-off and does not authorize any change in safety status before then. If suspected explosive ordnance is encountered, keep people and animals away; do not touch, move or try to destroy it; mark the place only if that can be done without going closer; and report it to the authorities.
 
 ## Check 1: is each cited item in the file?
 | Item | Quote | Found in the item's row |
@@ -24,7 +24,7 @@ General guidance on the situation:
 | E1 | A 2010 record lists a "dangerous area" near the former army position, with an approximate location, no boundary, and no items or accidents. | yes |
 | E2 | The army minefield record for the position describes one minefield beside it. The desk review found that the 2010 "dangerous area" is this same minefield: the same unit, the same position and the same date of laying. | yes |
 | E3 | The minefield beside the position was cleared in 2014; the completion report and the handover certificate, signed by the district authority, are in the national database. | yes |
-| E4 | We came back in 2017 and have grown vegetables here every year, and paddy in both seasons since 2018. We dug wells and put up fences. Nothing was ever found. | yes |
+| E4 | "We came back in 2017 and have grown vegetables here every year, and paddy in both seasons since 2018. We dug wells and put up fences. Nothing was ever found." | yes |
 | E5 | The women's rural development society said its members work in the gardens and the paddy every day and have found nothing in eight years. | yes |
 | E6 | The village officer said that no accident and no item has been reported in the village since resettlement began. | yes |
 | E7 | The team walked the gardens, the paddy bunds and the path to the former position, and saw no items, signs or fencing. The minefield site beside the position has the marker stones of a cleared site. | yes |
@@ -32,13 +32,13 @@ General guidance on the situation:
 ## Check 2: how each item was classed
 | Item | Class | Parts | Reliability class | Explains | Agent's note |
 |---|---|---|---|---|---|
-| E1 | indirect | all | 6 | - | The unassessed historical record is vague and supports suspicion but does not confirm EO or precisely define its location. |
-| E2 | absence | all | 3 | E1 | The documented comparison locates the record's referenced minefield beside, not within, the reviewed area, explaining the vague SHA entry. |
-| E3 | absence | outside | 3 | E1 | The verified completion and handover documents establish that the minefield outside the area was cleared; it supports the duplicate-record explanation but is not evidence of EO within the area. |
-| E4 | absence | A, B | 4 | - | A returnee household gives first-hand account of sustained cultivation and digging without finds in both parts. |
-| E5 | absence | A, B | 4 | - | Women directly using both areas report sustained daily activity without finds. |
-| E6 | absence | all | 4 | - | The officer reports from village records that no item or accident has been reported since resettlement. |
-| E7 | absence | all, outside | 2 | - | The team observed no indications in the reviewed area and observed cleared-site markers outside it; a field observation alone is limited but corroborates other evidence. |
+| E1 | indirect | A, B | 6 | - | An unassessed historical record of an approximate suspected area suggests possible hazard but does not confirm EO. |
+| E2 | absence | outside | 3 | E1 | The desk review links the old area record to the distinct minefield beside the reviewed area, explaining the apparent record for A and B. |
+| E3 | absence | outside | 3 | E1 | Verifiable official records document clearance and handover of the minefield outside the reviewed area, reinforcing that the duplicate record does not indicate hazard in A or B. |
+| E4 | absence | A, B | 4 | E1 | A returnee farmer reports sustained first-hand use of both parts without finds, providing evidence of safe use over time. |
+| E5 | absence | A, B | 4 | E1 | Women who work in both parts provide separate first-hand evidence of repeated use without finds. |
+| E6 | absence | A, B | 4 | E1 | The officer's maintained village records provide corroborating absence of reported finds or accidents, though this is not a substitute for direct observation. |
+| E7 | absence | A, B, outside | 2 | E1 | The survey team directly observed no indicators within the gardens and paddy and observed cleared-site markers at the separate minefield outside. |
 
 ## Check 3: the decision against IMAS and the national criteria
 | Rule | Part | Result | Detail |
@@ -52,13 +52,13 @@ General guidance on the situation:
 ## Check 4: what the agent did not use
 - Evidence items not in the register: none
 - Sections of the case file not read: none
-- Rule topics looked up: hazard_areas, evidence, reliability, land_use, cancellation, all_reasonable_effort, outcomes, national_criteria, case_file_text
+- Rule topics looked up: evidence, reliability, cancellation, land_use, national_criteria, outcomes, case_file_text
 
 ## Flags
 - Instruction-like text that the code found in the case file: none
 - Flags reported by the agent:
-  - If cancellation is approved, ensure the national database entry is corrected and the documents justifying correction—the minefield record, completion report and handover certificate—are retained or referenced, as required by the national criteria.
-  - The survey team's recommendation was considered as evidence and was not treated as the decision.
+  - If the duplicate/wrong record is corrected through desk review, note the correction in the database and retain or reference the documented minefield record, completion report and handover certificate as required by the national criteria.
+  - The survey team's recommendation was considered as evidence, not treated as the decision.
 - Advice on handling items removed: none
 - Vetoes during the run: none
 - Quote check failures: 0; tool errors: 0
