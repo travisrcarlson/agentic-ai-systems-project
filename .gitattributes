@@ -1,0 +1,8 @@
+# Keep the case files, rules, prompts and run records byte for byte as committed,
+# so their checksums match on every operating system.
+cases/** -text
+rules/** -text
+prompts/** -text
+runs/** -text
+*.png binary
+*.pdf binary
