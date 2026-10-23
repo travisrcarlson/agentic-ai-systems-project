@@ -22,6 +22,8 @@ Sections marked "Project rule" are this project's own rules, not IMAS. The agent
 - Craters: IMAS 08.10 (§6.1) lists craters seen among the examples of direct evidence, but the newer IMAS 07.11 (2026, §4.3) gives "visible craters" as an example of indirect evidence. This project follows the newer standard unless the case's national criteria say otherwise.
 - Bombing and artillery records and unit diaries are not direct evidence of cluster munition remnants, although they help to plan survey (TNMA 08.20/02, §8.1).
 - Project rule: an item moved from where it was found (for example, brought to a scrap yard or a house) is not evidence about the place where it now lies.
+- Project rule: marking or fencing put up only as a precaution, because an area was suspected, is not direct evidence on its own: it shows the suspicion, and is worth what the suspicion rests on. Marking put up because of a known minefield, finds or accidents is direct evidence (IMAS 08.10, §6.1).
+- Project rule: statements that attribute explosive ordnance to a party are recorded as the claims of their source. The reviewer takes no side in them; what matters is what the evidence shows about where explosive ordnance is.
 - Project rule: evidence about a place outside the area under review is recorded with the part "outside". It can explain evidence inside the area (for example, a record that places a minefield elsewhere), but it is not evidence of EO inside the area.
 
 ## reliability: How reliable each source is
@@ -51,6 +53,7 @@ Where sources are classified, IMAS 08.10 (§8.2) suggests these broad classes, f
 - Recommendations to cancel existing areas are made only when all reasonable effort has been applied (IMAS 08.10, §7).
 - Wrong, duplicate or redundant records may be amended, merged or removed, but only on documented and verifiable evidence (IMAS 07.11, §8.2).
 - Not reasons to cancel: low impact alone (IMAS 07.11, §4.2); great effort in one respect that leaves gaps in others (IMAS 08.10, §6.3).
+- Project rule: protected habitat, or the cost of survey, may limit the methods used, but is not a reason to cancel.
 - Communities, including women, girls, boys and men, are consulted closely on decisions to cancel, reduce or hand over land (IMAS 07.11, §11.2).
 - If direct evidence is later found on cancelled land, the land is reclassified as a CHA (IMAS 07.11, §10).
 
