@@ -44,9 +44,9 @@ The settings come from the public sources below, found by web research on 22 and
 
 **The standards.** The IMAS are owned and copyrighted by the United Nations and published at https://www.mineactionstandards.org/standards/.
 - IMAS 07.11 *Land release*, second edition, 16 January 2026: https://www.mineactionstandards.org/standards/07-11/
-- IMAS 08.10 *Non-technical survey*, first edition, amendment 4: https://www.mineactionstandards.org/standards/08-10/
-- IMAS 08.20 *Technical survey*, first edition, amendment 4: https://www.mineactionstandards.org/standards/08-20/
-- TNMA 08.20/02 *Cluster munition remnant survey*, first edition: https://www.mineactionstandards.org/standards/08-20-02/
+- IMAS 08.10 *Non-technical survey*, first edition, amendment 4, February 2019: https://www.mineactionstandards.org/standards/08-10/
+- IMAS 08.20 *Technical survey*, first edition, amendment 4, February 2019: https://www.mineactionstandards.org/standards/08-20/
+- TNMA 08.20/02 *Cluster munition remnant survey*, first edition, 23 January 2024: https://www.mineactionstandards.org/standards/08-20-02/
 
 **The country and territory contexts.** Landmine Monitor is published by the International Campaign to Ban Landmines – Cluster Munition Coalition, and Mine Action Review by Norwegian People's Aid; *Clearing the Mines 2025* is Mine Action Review's report unless another is named.
 - C01, Bosnia and Herzegovina:
