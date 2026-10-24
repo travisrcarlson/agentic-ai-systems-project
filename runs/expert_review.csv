@@ -1,0 +1,22 @@
+case,run,part,expected,agent,kind,judgement,reason,judged_by,date
+C03,1,B,TECHNICAL_SURVEY,FURTHER_NTS,further non-technical survey instead of technical survey,acceptable call,Cautious and defensible; I would sign it off.,Travis Carlson,2026-10-23
+C03,2,B,TECHNICAL_SURVEY,FURTHER_NTS,further non-technical survey instead of technical survey,acceptable call,Cautious and defensible; I would sign it off.,Travis Carlson,2026-10-23
+C05,1,A,TECHNICAL_SURVEY,FURTHER_NTS,further non-technical survey instead of technical survey,acceptable call,Cautious and defensible; I would sign it off.,Travis Carlson,2026-10-23
+C05,2,A,TECHNICAL_SURVEY,FURTHER_NTS,further non-technical survey instead of technical survey,acceptable call,Cautious and defensible; I would sign it off.,Travis Carlson,2026-10-23
+C05,3,A,TECHNICAL_SURVEY,FURTHER_NTS,further non-technical survey instead of technical survey,acceptable call,Cautious and defensible; I would sign it off.,Travis Carlson,2026-10-23
+C07,3,A,CLEARANCE,TECHNICAL_SURVEY,technical survey instead of clearance,acceptable call,"Defensible; I would sign it off, though clearance was my answer.",Travis Carlson,2026-10-23
+C07,3,B,CLEARANCE,TECHNICAL_SURVEY,technical survey instead of clearance,acceptable call,"Defensible; I would sign it off, though clearance was my answer.",Travis Carlson,2026-10-23
+C08,1,A,CLEARANCE,TECHNICAL_SURVEY,technical survey instead of clearance,acceptable call,"Defensible; I would sign it off, though clearance was my answer.",Travis Carlson,2026-10-23
+C08,1,B,CLEARANCE,TECHNICAL_SURVEY,technical survey instead of clearance,acceptable call,"Defensible; I would sign it off, though clearance was my answer.",Travis Carlson,2026-10-23
+C08,2,A,CLEARANCE,TECHNICAL_SURVEY,technical survey instead of clearance,acceptable call,"Defensible; I would sign it off, though clearance was my answer.",Travis Carlson,2026-10-23
+C08,2,B,CLEARANCE,TECHNICAL_SURVEY,technical survey instead of clearance,acceptable call,"Defensible; I would sign it off, though clearance was my answer.",Travis Carlson,2026-10-23
+C08,3,A,CLEARANCE,TECHNICAL_SURVEY,technical survey instead of clearance,acceptable call,"Defensible; I would sign it off, though clearance was my answer.",Travis Carlson,2026-10-23
+C08,3,B,CLEARANCE,TECHNICAL_SURVEY,technical survey instead of clearance,acceptable call,"Defensible; I would sign it off, though clearance was my answer.",Travis Carlson,2026-10-23
+C09,1,A,CLEARANCE,TECHNICAL_SURVEY,technical survey instead of clearance,acceptable call,"Defensible; I would sign it off, though clearance was my answer.",Travis Carlson,2026-10-23
+C09,1,B,CLEARANCE,TECHNICAL_SURVEY,technical survey instead of clearance,acceptable call,"Defensible; I would sign it off, though clearance was my answer.",Travis Carlson,2026-10-23
+C09,2,A,CLEARANCE,TECHNICAL_SURVEY,technical survey instead of clearance,acceptable call,"Defensible; I would sign it off, though clearance was my answer.",Travis Carlson,2026-10-23
+C09,2,B,CLEARANCE,TECHNICAL_SURVEY,technical survey instead of clearance,acceptable call,"Defensible; I would sign it off, though clearance was my answer.",Travis Carlson,2026-10-23
+C09,3,A,CLEARANCE,TECHNICAL_SURVEY,technical survey instead of clearance,acceptable call,"Defensible; I would sign it off, though clearance was my answer.",Travis Carlson,2026-10-23
+C09,3,B,CLEARANCE,TECHNICAL_SURVEY,technical survey instead of clearance,acceptable call,"Defensible; I would sign it off, though clearance was my answer.",Travis Carlson,2026-10-23
+C13,1,A,CLEARANCE,TECHNICAL_SURVEY,technical survey instead of clearance,acceptable call,"Defensible; I would sign it off, though clearance was my answer.",Travis Carlson,2026-10-23
+C13,3,A,CLEARANCE,TECHNICAL_SURVEY,technical survey instead of clearance,acceptable call,"Defensible; I would sign it off, though clearance was my answer.",Travis Carlson,2026-10-23
