@@ -11,6 +11,7 @@ A comparison run with the larger `gpt-6.1-sol`, with the same code and files, ag
 
 ## What's in this repository
 - `agentic_system.ipynb`: the task and its scope; the architecture, with the diagram and the design choices; setup; the case files and rules; the five tools; the evidence register, which is the agent's memory; the safeguards; the agent loop, with a single agent step and tests of every safeguard with the stand-in model; the runs, with traces of five cases; the evaluation, with a comparison with a larger model; failure cases and limitations; and a summary.
+- `module_summary.pdf`: the report, the Agentic AI System Design Report, in APA 7 format. The same file is also saved as `Agentic_AI_System_Design_Report.pdf` and `Agentic_AI_Systems_Analysis_Report.pdf`, the two other names the brief uses.
 - `cases/`: the fourteen case files, C01 to C14, and `expected_outcomes.csv`, the expected outcome for each part of each case, with the reason, which the agent is scored against.
 - `rules/land_release_rules.md`: the rules the agent looks up, paraphrased from IMAS 07.11, 08.10 and 08.20 and TNMA 08.20/02 with their section numbers, and the project's own rules, marked as such.
 - `prompts/system_prompt.md`: the agent's persona and instructions.
